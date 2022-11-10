@@ -278,10 +278,7 @@ fun OrSignInAsGuest(
 fun SignInSignUpScreenPreview() {
     JetsurveyTheme {
         Surface {
-            SignInSignUpScreen(
-                onSignedInAsGuest = {},
-                content = {}
-            )
+            OrSignInAsGuest({}, modifier = Modifier.fillMaxWidth())
         }
     }
 }
